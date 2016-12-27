@@ -1,0 +1,3 @@
+& git init  -   rozpoczecie monitu git
+$ git status - status
+$ git add nazwapliku - dodanie nazwy pliku
