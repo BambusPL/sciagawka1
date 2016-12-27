@@ -1,5 +1,4 @@
-& git init  -   rozpoczecie monitu git
-$ git status - status
+
 $ git add nazwapliku - dodanie nazwy pliku
 
 git init  -   creates a new Git repository
@@ -14,3 +13,20 @@ git checkout HEAD changes.txt  -   cofanie zmian
  git reset HEAD filename  -  wykluczanie zmian
  
  cofanie sie do pewnego punktu commitu - najpierw git log , nastepnie wyskakuja zmiany  z nr seryjnymi, trzeba wiec wpisac < git reset 5d69206 > i  7 pierwszych cyfr numeru by sie cofnac do tej zmiany
+ 
+ git branch new_branch - dodanie nowej kategori
+ git checkout branch_name  -  zmiana na kategorie
+ git merge branch_name   -   laczenie branchy
+ git branch -d branch_name   -   usuwanie branchy juz po merge
+ 
+ Let's take a moment to review the main concepts and commands from the lesson before moving on.
+
+Git branching allows users to experiment with different versions of a project by checking out separate branches to work on.
+The following commands are useful in the Git branch workflow.
+
+git branch: Lists all a Git project's branches.
+git branch branch_name: Creates a new branch.
+git checkout branch_name: Used to switch from one branch to another.
+git merge branch_name: Used to join file changes from one branch to another.
+git branch -d branch_name: Deletes the branch specified.
+
