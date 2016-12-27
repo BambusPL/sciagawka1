@@ -13,4 +13,4 @@ git checkout HEAD changes.txt  -   cofanie zmian
  q na klawie, przywracanie pisania w terminalu
  git reset HEAD filename  -  wykluczanie zmian
  
- cofanie sie do pewnego punktu commitu - najpierw git log , nastepnie wyskakuja zmiany  z nr seryjnymi, trzeba wiec wpisac git reset 5d69206 i 7 pierwszych cyfr numeru by sie cofnac do tej zmiany
+ cofanie sie do pewnego punktu commitu - najpierw git log , nastepnie wyskakuja zmiany  z nr seryjnymi, trzeba wiec wpisac < git reset 5d69206 > i  7 pierwszych cyfr numeru by sie cofnac do tej zmiany
