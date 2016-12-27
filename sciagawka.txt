@@ -8,3 +8,9 @@ git add   -   adds files from the working directory to the staging area
 git diff  -    shows the difference between the working directory and the staging area
 git commit   -   permanently stores file changes from the staging area in the repository
 git log  -    shows a list of all previous commits
+
+git checkout HEAD changes.txt  -   cofanie zmian
+ q na klawie, przywracanie pisania w terminalu
+ git reset HEAD filename  -  wykluczanie zmian
+ 
+ cofanie sie do pewnego punktu commitu - najpierw git log , nastepnie wyskakuja zmiany  z nr seryjnymi, trzeba wiec wpisac git reset 5d69206 i 7 pierwszych cyfr numeru by sie cofnac do tej zmiany
